@@ -1,1 +1,1 @@
-# Projet chef-d'oeuvre - phase 1
+# Projet chef-d'oeuvre
