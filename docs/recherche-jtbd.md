@@ -2,7 +2,7 @@
 
 ## Identification du problème 
 
-Quand je veux préparer les combats de ma sessions de jeu de rôle, je veux trouver facilement les informations dont j'ai besoin, pour que les préparatifs soient rapide à faire.
+Quand je veux préparer les combats de ma sessions de JdR, je veux trouver facilement les informations dont j'ai besoin, pour que les préparatifs soient rapide à faire.
 
 ## Recherches
 
@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=EAoE3IiBspM
 
 ### Des outils spécifiques
 
-Pour beaucoup de jeux de rôles (principalement les plus populaire), il existe un ou plusieurs bestiaire en ligne. Pour un maitre du jeu qui souhaite se dédier à un seul et unique Jeu de Rôle c'est suffisant. Cependant pour ceux qui souhaitent jouer à différents types de jeux de rôles, ce n'est pas pratique. Plus un Maître du Jeu s'intéresse à différents jeux, plus il doit multiplier ses recherches.
+Pour beaucoup de JdR (principalement les plus populaire), il existe un ou plusieurs bestiaire en ligne. Pour un MJ qui souhaite se dédier à un seul et unique JdR c'est suffisant. Cependant pour ceux qui souhaitent jouer à différents types de JdR, ce n'est pas pratique. Plus un Maître du Jeu s'intéresse à différents jeux, plus il doit multiplier ses recherches.
 
 ### Logiciels existants mais trop complèxe
 

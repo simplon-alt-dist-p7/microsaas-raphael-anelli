@@ -2,7 +2,7 @@
 
 ## Le problème
 
-Quand je veux préparer les combats de ma sessions de jeu de rôle, je veux trouver facilement les informations dont j'ai besoin, pour que les préparatifs soient rapide à faire.
+Quand je veux préparer les combats de ma sessions de JdR, je veux trouver facilement les informations dont j'ai besoin, pour que les préparatifs soient rapide à faire.
 
 ## La cible (persona précise)
 
@@ -11,7 +11,7 @@ Quand je veux préparer les combats de ma sessions de jeu de rôle, je veux trou
 
 ## Fonctionnalité principale 
 
-Liste de créature issues de différents univers (fantaisie, science-fiction, horreur), à destination de différents jeux de rôles. La liste détient des informations minimes et chaque entrée dans la liste permet d'accéder à une page de détail de la créature.
+Liste de créature issues de différents univers (fantaisie, science-fiction, horreur), à destination de différents JdR. La liste détient des informations minimes et chaque entrée dans la liste permet d'accéder à une page de détail de la créature.
 
 ## Métriques de succès (1 à 3 )
 
@@ -21,7 +21,7 @@ Liste de créature issues de différents univers (fantaisie, science-fiction, ho
 
 ### Copyright
 
-Certaines créatures de Jeu de rôle sont soumis à un copyright. Intégrer les caractéristiques précises de la créature issues d'un jeu de rôle spécifique peut entrainer des problèmes de droit d'auteur. Avant d'intégrer ces créatures, il faut donc étudier les différentes règles de copyright, telles que : 
+Certaines créatures de JdR sont soumis à un copyright. Intégrer les caractéristiques précises de la créature issues d'un JdR spécifique peut entrainer des problèmes de droit d'auteur. Avant d'intégrer ces créatures, il faut donc étudier les différentes règles de copyright, telles que : 
 
 OGL (Open Game License) : permet à des créateurs tiers d'utiliser certains contenus du jeu
 SRD (System Reference Document) : document qui contient les éléments qui peuvent être réutilisable dans un autre système de jeu.
