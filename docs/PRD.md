@@ -6,7 +6,7 @@ Quand je veux préparer les combats de ma sessions de JdR, je veux trouver facil
 
 ## La cible (persona précise)
 
-Les joueurs de JdR et MJ.
+Les Maitres du Jeu (MJ).
 
 ## La proposition de valeur unique
 
