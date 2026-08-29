@@ -26,7 +26,25 @@ When : il saisit "goblin" dans la barre de recherche
 And : lance la recherche
 Then : les créatures ayant "goblin" dans leur nom apparaissent
 
-## 4 - Filtrer par espèce
+## 4 - Créer une créature
+
+Scénario : Création d'une nouvelle créature
+Given : le MJ est sur la page de création d'une créature
+When : il saisit les différents éléments nécessaire à la créature
+And : choisi son espère
+And : appuit sur Enregistrer
+Then : la créature est enregistrée dans la liste des créatures existantes
+
+## 5 - Supprimer une créature
+
+Scénario : Suppression d'une créature du MJ
+Given : le MJ est sur la liste des créatures qu'il a créé
+And : chacune d'elle a un bouton supprimer
+When : il clique sur le bouton de suppression d'une créature
+And : il confirme la suppression
+Then : la créature est supprimée de la liste
+
+## 6 - Filtrer par espèce
 
 Scenario : Lister les créatures apparenant à la même espèce
 Given : l'utilisateur est sur la page avec la liste complète
@@ -34,7 +52,7 @@ And : la catégorie "draconique" existe avec au moins une créature qui en fait 
 When : il sélectionne la catégorie "draconique" dans les filtres
 Then : les créatures de la catégorie "draconique" apparaissent dans les résultats
 
-## 5 - Filtrer par genre d'univers
+## 7 - Filtrer par genre d'univers
 
 Scenario : Lister les créatures apppartenant à un genre spécifique
 Given : l'utilisateur est sur la page avec la liste complète
