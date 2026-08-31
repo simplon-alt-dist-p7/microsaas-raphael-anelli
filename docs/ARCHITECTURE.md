@@ -2,7 +2,20 @@
 
 ## Patron de conception
 
-(à déterminer)
+J'ai fais le choix de partir sur une architecture multicouche classique :
+
+Routes -> Controller -> Service -> Repository -> Models -> Base de données
+
+Cette structure est suffisante car l'application est assez simple dans son fonctionnement.
+
+## Rôle de chaque couche 
+
+Routes : elles font le lien entre une requête et le controller correspondant. Elles définissent les URL qui sont disponibles, les méthodes HTTP utilisées et les controllers qui sont appelés.
+Controllers : prend en compte les paramètres de la requête, transmettant les informations au service, puis récupère le résultat afin de construire une réponse HTTP.
+Services : logique métier de l'application.
+Repositories : fait le lien entre les services et la base de données. Il permet de faire des opérations permettant différentes actions
+Models : représente la structure des données utilisées, comprenant les différents éléments qui le défini.
+Base de données : stockage des données de manière organisée
 
 ## Choix de sobriété
 
