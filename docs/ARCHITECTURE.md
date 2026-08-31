@@ -17,6 +17,12 @@ Repositories : fait le lien entre les services et la base de données. Il permet
 Models : représente la structure des données utilisées, comprenant les différents éléments qui le défini.
 Base de données : stockage des données de manière organisée
 
+## Choix des entrées
+
+Effectuer une validation via un middleware, afin d'éviter que des données incorrectes ou néfastes soient utilisées dans l'application.
+Il faut aussi empêcher les injections SQL directe, donc éviter l'utilisation de requêtes écrites directement lorsqu'on reçois des données utilisateurs.
+Les données sensibles sont chiffrées avant d'être stocké en base de données, afin de les protéger, notamment toutes les données liés à l'authentification de l'utilisateur.
+
 ## Choix de sobriété
 
 Afin de limiter les éléments chargés dans la liste principale, une pagination sera mise en place avec un nombre maximum d'élément affiché par page (entre 12 et 20 maximum).
