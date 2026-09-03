@@ -13,3 +13,12 @@ DM Sans pour le reste du texte.
 | | | | |
 | :---- |:------------------------------------------------|:-----|:-----|
 | <span style="color:#61463f; font-size: 80px; margin-bottom: 0; line-height: 1;">&#9724;</span><p style="text-align:center; margin-top: 0;">#61463f</p> |  <span style="color:#a03d36; font-size: 80px; margin-bottom: 0; line-height: 1;">&#9724;</span> <p style="text-align:center; margin-top: 0;">#a03d36</p> | <span style="color:#c4a27c; font-size: 80px; margin-bottom: 0; line-height: 1;">&#9724;</span> <p style="text-align:center; margin-top: 0;">#c4a27c</p> | <span style="color:#e9e1c9; font-size: 80px; margin-bottom: 0; line-height: 1;">&#9724;</span> <p style="text-align:center; margin-top: 0;">#e9e1c9</p> |
+
+### Elements visuels
+
+La majeure partie des images du site sont liés aux créatures. Chaque créature a une image qui lui est propre.
+
+## Maquette
+
+Vous pouvez voir les zoning, les wireframe, ainsi que la maquette de l'application sur Figma :
+https://www.figma.com/design/COAHldHxXL352DUtwLsnAf/CDA---Projet-final?node-id=0-1&t=LUAxMCLyWfh2gwMA-1
