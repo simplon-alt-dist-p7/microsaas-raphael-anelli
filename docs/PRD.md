@@ -19,7 +19,9 @@ Liste de créature issues de différents univers (fantaisie, science-fiction, ho
 ## Métriques de succès (1 à 3)
 
 Trouver les informations facilement : recherches/filtres
-Libilité des éléments : pagination, informations présentes dans chaque élément de la liste
+
+Lisibilité des éléments : pagination, informations présentes dans chaque élément de la liste
+
 Temps de chargement des pages : pas plus de 2 secondes
 
 ## Hors-périmètre explicite (ce que je ne fais pas)
