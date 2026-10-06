@@ -1,1 +1,20 @@
 services:
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - registres-database-data:/var/lib/postgresql   # stock la base de données et assure sa persistance
+      - ./registres-database/init.sql:/docker-entrypoint-initdb.d/init.sql   # initialise au premier démarage le script init.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  registres-database-data:
