@@ -14,7 +14,7 @@ CREATE TABLE registres.role (
 );
 
 -- ============================================
--- TABLE: role
+-- TABLE: utilisateur
 -- ============================================
 
 CREATE TABLE registres.utilisateur (
@@ -30,4 +30,13 @@ CREATE TABLE registres.utilisateur (
     CONSTRAINT fk_utilisateur_role
         FOREIGN KEY (id_role)
         REFERENCES registres.role(id_role)
+);
+
+-- ============================================
+-- TABLE: univers
+-- ============================================
+
+CREATE TABLE registres.univers (
+    id_univers SERIAL PRIMARY KEY,
+    nom_univers VARCHAR(50) NOT NULL UNIQUE
 );
