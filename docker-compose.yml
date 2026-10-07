@@ -16,5 +16,19 @@ services:
       timeout: 5s
       retries: 5
 
+  registres-back:
+    build: ./registres-back
+    ports:
+      - "3000:3000"   # SUPPRIMER EN PROD(à gauche ce qui est appelé par le navigateur, à droite ce qu'y est appelé par les conteneurs/environnement)
+    volumes:
+      - ./registres-back:/app   # fait le reload du dossier sans avoir besoin de faire un nouveau build (hot-reload)
+      - registres-back-node_mobuldes:/app/node_modules    # protège les node_modules pour éviter qu'ils se fassent écraser
+    env_file:
+      - ./registres-back/.env # injection des variables
+    command: npm run dev      # commande pour lancer le backend
+    depends_on:
+      db:
+        condition: service_healthy
+
 volumes:
   registres-database-data:
