@@ -29,6 +29,19 @@ services:
     depends_on:
       db:
         condition: service_healthy
+  
+  registres-front:
+    build: ./registres-front
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./registres-front:/app
+      - registres-front-node_modules:/app/node_modules
+    command: npm run dev
+    environment :
+      - VITE_API_URL=http://localhost:3000/api    # url du backend pour l'utiliser au frontend
 
 volumes:
   registres-database-data:
+  registres-back:
+  registres-front:
