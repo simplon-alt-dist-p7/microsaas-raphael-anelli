@@ -111,3 +111,47 @@ CREATE TABLE registres.relation_creature_univers (
         FOREIGN KEY (id_univers)
         REFERENCES registres.environnement(id_univers)
 );
+
+
+-- ============================================
+-- INSERT : données fixes
+-- ============================================
+
+INSERT INTO registres.role(nom_role) VALUES
+('Administrateur'),
+('Maître du jeu');
+
+INSERT INTO registres.environnement(type_environnement) VALUES
+('Foret'),
+('Urbain'),
+('Grotte'),
+('Souterrain'),
+('Montagne'),
+('Désert'),
+('Aquatique'),
+('Espace');
+
+INSERT INTO registres.espece(type_espece) VALUES
+('Humanoïde'),
+('Bête'),
+('Bestiole'),
+('Aberration'),
+('Monstruosité'),
+('Dragon'),
+('Géant'),
+('Mort-vivant'),
+('Céleste'),
+('Créature artificielle'),
+('Élémentaire'),
+('Fée'),
+('Démon'),
+('Diable'),
+('Vase'),
+('Plante'),
+('Alien');
+
+INSERT INTO registres.univers(nom_univers) VALUES 
+('Dungeons & Dragons - 5e édition'),
+('Call of Cthulhu'),
+('Alien - Le jeu de rôle'),
+('Vampire - La mascarade')
