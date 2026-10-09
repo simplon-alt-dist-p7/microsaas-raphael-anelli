@@ -3,6 +3,7 @@ import express from "express";
 import type { Request, Response } from "express";
 import dotenv from "dotenv";
 import { connectDB } from "./config/database.js";
+import routes from "./routes/routes.js";
 
 dotenv.config();
 
@@ -12,9 +13,12 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Route principale
+app.use("/api", routes);
+
 app.get("/", (req: Request, res: Response) => {
   res.json({
-    message: "Bienvenue sur l'API wm-rajar-ms_writer",
+    message: "Bienvenue sur l'API Les Registres du Chaos",
     status: "running",
   });
 });
