@@ -1,5 +1,6 @@
 import { DataSource } from "typeorm";
 import dotenv from "dotenv";
+import { Espece } from "../models/espece.model.ts";
 
 dotenv.config();
 
@@ -26,7 +27,7 @@ export const AppDataSource = new DataSource({
   password: process.env.DB_PASSWORD!,
 
   // Liste de toutes vos entities
-
+  entities: [Espece],
 
   // Synchronisation automatique des schémas
   synchronize: false, // Laisser à false, pour utiliser les migrations

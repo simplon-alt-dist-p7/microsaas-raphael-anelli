@@ -109,7 +109,7 @@ CREATE TABLE registres.relation_creature_univers (
         REFERENCES registres.creature(id_creature),
     CONSTRAINT fk_relation_creature_univers_univers
         FOREIGN KEY (id_univers)
-        REFERENCES registres.environnement(id_univers)
+        REFERENCES registres.univers(id_univers)
 );
 
 
