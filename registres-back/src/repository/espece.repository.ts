@@ -9,7 +9,7 @@ class EspeceRepository {
         this.repository = AppDataSource.getRepository(Espece);
     }
 
-    async findAllEspece(): Promise<Espece[]> {
+    async findAllEspeces(): Promise<Espece[]> {
         return await this.repository.find();
     }
 }
