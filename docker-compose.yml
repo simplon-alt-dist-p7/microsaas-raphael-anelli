@@ -22,7 +22,7 @@ services:
       - "3000:3000"   # SUPPRIMER EN PROD(à gauche ce qui est appelé par le navigateur, à droite ce qu'y est appelé par les conteneurs/environnement)
     volumes:
       - ./registres-back:/app   # fait le reload du dossier sans avoir besoin de faire un nouveau build (hot-reload)
-      - registres-back-node_mobuldes:/app/node_modules    # protège les node_modules pour éviter qu'ils se fassent écraser
+      - registres-back-node_modules:/app/node_modules    # protège les node_modules pour éviter qu'ils se fassent écraser
     env_file:
       - ./registres-back/.env # injection des variables
     command: npm run dev      # commande pour lancer le backend
@@ -43,5 +43,5 @@ services:
 
 volumes:
   registres-database-data:
-  registres-back:
-  registres-front:
+  registres-back-node_modules:
+  registres-front-node_modules:
